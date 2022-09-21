@@ -1,0 +1,40 @@
+/* Setting the margin and padding to 0px. */
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+/* Setting the max-width of the search bar to 60% of the screen. */
+
+#search{
+    max-width: 60%;
+}
+
+
+/* Making the search bar bigger when you hover over it. */
+
+#search:hover{
+    transform: scale(1.25);
+}
+#submit:hover{
+    transform: scale(1.25);
+}
+
+/* Making the search bar and the submit button be evenly spaced out. */
+
+.container{
+    height: 40px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#flag{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    background-color: rgb(164, 239, 239);
+    height: fit-content;
+}
+#discription{
+    font-size: 25px;
+}
